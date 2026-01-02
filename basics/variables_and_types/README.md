@@ -39,7 +39,9 @@ Each program generates console output showing:
 - Results of arithmetic operations
 - Data types of different variables
 
-The output produced by the program is documented using a screenshot stored as **`output.png`** in this folder.
+The sample output for this module is shown below.
+
+![Program Output](output.png)
 
 ---
 
