@@ -1,7 +1,7 @@
 ## Python Operators – Practice Programs
 
 This folder contains Python programs that demonstrate the **different types of operators** used in Python.
-It is designed for beginners to understand how operators work with numbers, variables, and boolean values.
+It is intended for beginners who are learning how Python performs calculations, comparisons, assignments, and logical operations.
 
 ---
 
@@ -9,12 +9,12 @@ It is designed for beginners to understand how operators work with numbers, vari
 
 The programs in this folder cover the following operator categories:
 
-- Arithmetic Operators
-- Relational (Comparison) Operators
-- Assignment Operators
-- Logical Operators
+- Arithmetic Operators  
+- Relational (Comparison) Operators  
+- Assignment Operators  
+- Logical Operators  
 
-Each example focuses on **basic usage and correct syntax**, keeping the code simple and easy to follow.
+Each example focuses on **basic usage and correct syntax**, keeping the code simple, readable, and beginner-friendly.
 
 ---
 
@@ -48,14 +48,16 @@ Used to update variable values efficiently.
 - `not`  
 Used to work with boolean expressions and conditions.
 
-All outputs are displayed using the `print()` function for clarity.
+All results are displayed using the `print()` function for clarity.
 
 ---
 
 ## 🖥️ Output
 
-Each program prints the result of operator operations directly to the console.
-The complete console output is captured and stored as a screenshot in **`output.png`** for reference.
+Each program prints the result of operator operations directly to the console.  
+The complete console output is captured and stored as an image below.
+
+![Console Output](output.png)
 
 ---
 
@@ -76,5 +78,6 @@ The complete console output is captured and stored as a screenshot in **`output.
 ---
 
 ## ⭐ Note
-Operators are a core part of Python programming.
+
+Operators are a core part of Python programming.  
 Understanding them clearly is essential before moving to conditions, loops, and logic-based programs.
