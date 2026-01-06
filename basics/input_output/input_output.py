@@ -30,3 +30,25 @@ This is a multi-line comment (docstring).
 It is used for documentation and explaining
 larger sections of code.
 """
+
+# Input in Python 
+name = input("Enter your name: ") 
+print ("Welcome", name)
+
+age = input("Enter your age: ") 
+print ("You are", age, "years old.")
+
+val = input("Enter a number: ")
+print (type(val),val) # By default, input() returns a string
+
+val_int = int(val)  # Converting string input to integer
+print (type(val_int),val_int)
+
+
+Name = input("Enter Name :")
+age = int(input("Enter Age :"))
+marks = float(input("Enter Marks :"))   
+
+print("Name :", Name)
+print("Age :", age)
+print("Marks :", marks)
