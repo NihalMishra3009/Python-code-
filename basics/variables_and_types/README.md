@@ -1,60 +1,63 @@
-## Python Variables and Data Types – Practice Programs
+🐍 Python Variables and Data Types – Practice Programs
 
-This folder contains Python programs that demonstrate how variables and built-in data types are defined, assigned, and used in Python.
-It is intended for beginners who are building a strong foundation in Python programming and understanding how data is stored and manipulated.
+This folder contains Python practice programs that demonstrate how variables and built-in data types are declared, assigned, and used in Python.
+It is designed for beginners who want to build a strong foundation and clearly understand how data is stored, accessed, and manipulated in Python programs.
 
----
+📌 Program Overview
 
-## 📌 Program Overview
+The programs in this folder focus on core concepts related to Python variables and data types, including:
 
-The programs in this folder cover fundamental concepts related to variables and data types, including:
+Declaring and initializing variables
 
-- Declaring and assigning variables
-- Working with common data types such as integers, floats, strings, booleans, and None
-- Copying values using assignment operators
-- Performing basic arithmetic operations using variables
-- Inspecting data types using the `type()` function
+Working with common data types such as int, float, str, bool, and None
 
-Each example focuses on practical usage rather than theoretical explanations.
+Assigning and copying values using variables
 
----
+Performing basic arithmetic operations
 
-## 🧪 Code Functionality
+Inspecting variable data types using the type() function
 
-The programs demonstrate:
-- Dynamic typing in Python
-- Variable assignment and reassignment
-- Basic numeric operations
-- Type inspection at runtime
-- Clean and readable output formatting
+Each program emphasizes hands-on practice rather than heavy theory.
 
-The implementations are intentionally simple and beginner-friendly to reinforce core concepts clearly.
+🧪 Code Functionality
 
----
+The programs demonstrate the following Python concepts:
 
-## 🖥️ Output
+Dynamic typing in Python
 
-Each program generates console output showing:
-- Variable values
-- Results of arithmetic operations
-- Data types of different variables
+Variable assignment and reassignment
 
-The sample output for this module is shown below.
+Basic numerical and arithmetic operations
 
-![Program Output](output.png)
+Runtime type inspection
 
----
+Clean, readable, and beginner-friendly output formatting
 
-## 📂 File Information
+The code is intentionally kept simple to reinforce fundamental programming concepts.
 
-- `variables_and_types.py` — Demonstrates variable declaration, data types, assignment, and basic operations  
-- `output.png` — Screenshot of console output  
-- `README.md` — Folder documentation  
+🖥️ Output
 
----
+Each program produces console output that displays:
 
-## 👨‍💻 Author
+Variable values
 
-Nihal Mishra  
-📧 Email: nihalmishra3009@gmail.com  
+Results of arithmetic operations
+
+Data types of different variables
+
+A sample output screenshot for this module is shown below:
+
+📂 File Information
+
+variables_and_types.py — Demonstrates variable declaration, data types, assignment, and basic operations
+
+output.png — Screenshot of program output
+
+README.md — Documentation for this folder
+
+👨‍💻 Author
+
+Nihal Mishra
+📧 Email: nihalmishra3009@gmail.com
+
 🌐 GitHub: https://github.com/NihalMishra3009
