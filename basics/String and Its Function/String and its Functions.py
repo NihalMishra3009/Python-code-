@@ -8,6 +8,9 @@ str2 = 'This is also string'
 # 3. Triple Quote
 str3 = """This is also a new type of string"""
 
+
+
+
 # escape sequence character
 str4 = "This is my String.\n we are creating it in python " # \n is used to give new line
 print (str4)
@@ -27,6 +30,10 @@ Finalstr = (str1+" "+str2)
 print (Finalstr) # Hello Nihal
 print ("Total length of str1 and str 2 :",len(Finalstr))
 
+
+
+
+
 # Indexing in String
 str = "PythonProgramming"
 ch = str[3]# it will give character at index 3
@@ -35,10 +42,18 @@ print (ch)
 str7 = "Nihal Mishra"
 print(str7[8])
 
+
+
+
+
 # Slicing in String
 str8 = "HelloWorld"
 sub_str = str8[1:5] # it will give substring from index 0
 print(sub_str)
+
+
+
+
 
 #negative indexing
 str9 = "PythonProgramming"
@@ -47,8 +62,12 @@ print (ch)
 sub_str2 = str9[-7:-1] # it will give substring from index -7 to -1
 print (sub_str2)
 
+
+
+
 #String Functions
 str = "i am Studing Python Programming Language"
+
 
 #Endswith function
 print(str.endswith("age")) # it will return true if string ends with given substring else false
