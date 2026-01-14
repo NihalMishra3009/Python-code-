@@ -1,92 +1,167 @@
-#String and its function s in Python
+# =====================================================
+# STRINGS AND STRING FUNCTIONS IN PYTHON
+# =====================================================
 
-# Generally there are 3 type of string in python
-# 1. Single Quote
-str1 = "THis is string"
-# 2. Double Quote
-str2 = 'This is also string'
-# 3. Triple Quote
-str3 = """This is also a new type of string"""
+# -----------------------------
+# 1. Types of Strings
+# -----------------------------
 
+# Single quote string
+str1 = 'This is a string'
 
+# Double quote string
+str2 = "This is also a string"
 
+# Triple quote string (used for multi-line strings)
+str3 = """This is
+a multi-line
+string"""
 
-# escape sequence character
-str4 = "This is my String.\n we are creating it in python " # \n is used to give new line
-print (str4)
+print(str1)
+print(str2)
+print(str3)
 
-str5 = "This is my String.\t we are creating it in python " # \t is used to give tab space
-print (str5)
+# -----------------------------
+# 2. Escape Sequence Characters
+# -----------------------------
 
-#Basic Operations on String
-# String Concatination
-str1 = "Hello "
-print(len(str1)) # to find length of string
-str2 = "Nihal"
-length = len(str2)
-print (length)
+# \n → new line
+str4 = "This is my string.\nWe are creating it in Python."
+print(str4)
 
-Finalstr = (str1+" "+str2)
-print (Finalstr) # Hello Nihal
-print ("Total length of str1 and str 2 :",len(Finalstr))
+# \t → tab space
+str5 = "This is my string.\tWe are creating it in Python."
+print(str5)
 
+# \\ → backslash
+print("new\\old")
 
+# \' → single quote inside single-quoted string
+print('This is Python\'s class')
 
+# -----------------------------
+# 3. Basic String Operations
+# -----------------------------
 
+# String length
+s1 = "Hello"
+print(len(s1))  # Length of string
 
-# Indexing in String
-str = "PythonProgramming"
-ch = str[3]# it will give character at index 3
-print (ch)
+# String concatenation
+s2 = "Nihal"
+final_str = s1 + " " + s2
+print(final_str)
+print("Total length:", len(final_str))
 
-str7 = "Nihal Mishra"
-print(str7[8])
+# -----------------------------
+# 4. Indexing in Strings
+# -----------------------------
 
+text = "PythonProgramming"
 
+# Positive indexing
+print(text[3])      # Character at index 3
+print(text[0])      # First character
 
+# Negative indexing
+print(text[-1])     # Last character
+print(text[-4])     # 4th character from end
 
+# -----------------------------
+# 5. Slicing in Strings
+# -----------------------------
 
-# Slicing in String
-str8 = "HelloWorld"
-sub_str = str8[1:5] # it will give substring from index 0
-print(sub_str)
+word = "HelloWorld"
 
+print(word[1:5])     # From index 1 to 4
+print(word[:5])      # From start to index 4
+print(word[5:])      # From index 5 to end
+print(word[2:9:2])   # With step value
 
+# Negative slicing
+print(text[-7:-1])
 
+# -----------------------------
+# 6. String Functions
+# -----------------------------
 
+sentence = "i am studying python programming language"
 
-#negative indexing
-str9 = "PythonProgramming"
-ch = str9[-4] # it will give 4th character from last
-print (ch)
-sub_str2 = str9[-7:-1] # it will give substring from index -7 to -1
-print (sub_str2)
+# endswith()
+print(sentence.endswith("age"))
+print(sentence.endswith("xyz"))
 
+# capitalize()
+print(sentence.capitalize())
 
+# replace()
+s10 = "I love Python. Python is great."
+print(s10.replace("Python", "Java"))
 
+# find()
+print(s10.find("Python"))   # Returns index
+print(s10.find("Java"))     # Returns -1 if not found
 
-#String Functions
-str = "i am Studing Python Programming Language"
+# count()
+print(s10.count("Python"))
+print(s10.count("t"))
 
+# -----------------------------
+# 7. Case Conversion Functions
+# -----------------------------
 
-#Endswith function
-print(str.endswith("age")) # it will return true if string ends with given substring else false
-print(str.endswith("ts")) # it will return count of given substring in string
+s3 = "Python"
 
-#Capitalize function
-print (str.capitalize()) # it will capitalize first character of string
-str = str.capitalize()
-print (str)
+print(s3.upper())       # Uppercase
+print(s3.lower())       # Lowercase
+print(sentence.title()) # Title case
+print(sentence.capitalize())
 
-#Replace function
-str10 = "I love Python. Python is great."
-print (str10.replace("Python", "Java")) # it will replace all occurrence of given substring with new substring  
+# -----------------------------
+# 8. startswith() and endswith()
+# -----------------------------
 
-#Find function
-print (str10.find("i")) # it will return starting index of given substring else -1 if not found
-print (str10.find("Java")) # it will return -1 as substring not found
+s4 = "We are learning Python. Python is fun"
 
-#Count function
-print (str10.count("t")) # it will return count of given substring in string
-print (str10.count("Python")) # it will return count of given substring in string
+print(s4.startswith("We"))
+print(s4.startswith("we"))
+print(s4.endswith("fun"))
+print(s4.endswith("Fun"))
 
+# -----------------------------
+# 9. String Formatting
+# -----------------------------
+
+name = "John"
+age = 20
+language = "Python"
+hours = 3
+
+# Normal print
+print(name, "is", age, "years old. He studies", language, hours, "hours a day")
+
+# f-string (recommended)
+print(f"{name} is {age} years old. He studies {language} {hours} hours a day")
+
+# -----------------------------
+# 10. Arithmetic inside f-strings
+# -----------------------------
+
+sub1 = 78
+sub2 = 87
+sub3 = 91
+
+total = sub1 + sub2 + sub3
+percentage = total / 3
+
+print(f"{name} scored {total} marks in the test")
+print(f"{name} scored {round(percentage, 2)}% in the test")
+
+# -----------------------------
+# 11. Counting Substring Occurrences
+# -----------------------------
+
+main_str = "We are learning Python. Python is fun"
+sub_str = "Python"
+
+print(f"Occurrence of '{sub_str}' is {main_str.count(sub_str)}")
