@@ -72,9 +72,9 @@ A sample console output is shown below:
 
 ## 📂 File Structure
 
-- `functions.py` — Complete practice program covering all Python function concepts
-- `output.png` — Screenshot of console output
-- `README.md` — Documentation for this folder
+- `Functions in Python.py`
+- `output.png`
+- `README.md`
 
 ---
 
